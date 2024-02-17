@@ -1,0 +1,68 @@
+:root{
+    --fondo1: #ffffff;
+    --fondo2: #1e8bc3;
+}
+body{
+    background-color: var(--fondo1);
+    color: var(--fondo2);
+}
+.contenedor{
+    display: flex;
+}
+.pf1{
+text-align: left;
+justify-content: left;
+margin-right: 25px;
+margin-left: 25px;
+color: black;
+}
+.pf2{
+    text-align: left;
+    justify-content: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: black;
+}
+.pf3{
+    text-align: left;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: black;
+ }
+.pf4{
+        text-align: left;
+        justify-content: left;
+        
+        color: black;
+}
+.img{
+display: flex;
+justify-content: center;
+width: 290px;
+height: 300px;
+}
+.img2{
+    display: flex;
+    justify-content: left;
+    width: 270px;
+    height: 240px;
+}
+
+.titulo{
+    color: var(--fondo2);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    
+  
+}
+.boton{
+    text-align: center;
+    justify-content: center;
+    border: var(--fondo2);
+    color: var(--fondo1);
+    background-color: var(--fondo2);
+    
+}
